@@ -64,8 +64,6 @@ Full notes, including single-request runs and a first inconclusive attempt, are 
 
 ## Recommendation
 
-*(Write this section in your own words. Example direction below.)*
-
 For a customer running a small model like Qwen 2.5 3B on an L4:
 
 - **Check autoscaling before anything else.** The default concurrency target of 1 leaves most of the GPU unused. Set it to match the load the engine can batch.
